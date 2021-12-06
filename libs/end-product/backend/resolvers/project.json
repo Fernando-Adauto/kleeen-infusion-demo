@@ -1,0 +1,22 @@
+{
+  "root": "libs/end-product/backend/resolvers",
+  "sourceRoot": "libs/end-product/backend/resolvers/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/end-product/backend/resolvers/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/end-product/backend/resolvers"],
+      "options": {
+        "jestConfig": "libs/end-product/backend/resolvers/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

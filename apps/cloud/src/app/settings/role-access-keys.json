@@ -1,0 +1,42 @@
+{
+  "NAVIGATION": {
+    "CHILDREN": {
+      "WORKFLOW1": {
+        "PERMISSIONS": {
+          "ADMIN": "SHOW",
+          "GUEST": "SHOW"
+        }
+      }
+    }
+  },
+  "WORKFLOW1": {
+    "CHILDREN": {
+      "WIDGETS": {
+        "CHILDREN": {
+          "C1F9472F-9842-4B2A-8C0E-984E898E6AF1": {
+            "PERMISSIONS": {
+              "ADMIN": "SHOW",
+              "GUEST": "SHOW"
+            }
+          }
+        }
+      },
+      "VIEWS": {
+        "CHILDREN": {
+          "CUSTOMVIEW1": {
+            "PERMISSIONS": {
+              "ADMIN": "SHOW",
+              "GUEST": "SHOW"
+            }
+          },
+          "REPORT1": {
+            "PERMISSIONS": {
+              "ADMIN": "SHOW",
+              "GUEST": "SHOW"
+            }
+          }
+        }
+      }
+    }
+  }
+}
