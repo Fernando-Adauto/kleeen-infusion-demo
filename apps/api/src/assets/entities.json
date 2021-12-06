@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Timestamp",
+    "formatType": "timestamp",
+    "initialQuantity": 50,
+    "properties": {
+      "displayValue": {
+        "format": {},
+        "formatType": "timestamp",
+        "name": "displayValue",
+        "params": [],
+        "statisticalType": "Data - Numeric - Temporal",
+        "type": "timestamp"
+      }
+    }
+  },
+  {
+    "name": "Hoodie",
+    "description": "",
+    "formatType": "string",
+    "initialQuantity": 50,
+    "properties": {
+      "displayValue": {
+        "description": "",
+        "format": {},
+        "formatType": "string",
+        "name": "displayValue",
+        "params": [],
+        "statisticalType": "Data - Categorical - free form",
+        "type": "string"
+      }
+    }
+  },
+  {
+    "name": "Jeans",
+    "description": "",
+    "formatType": "string",
+    "initialQuantity": 50,
+    "properties": {
+      "displayValue": {
+        "description": "",
+        "format": {},
+        "formatType": "string",
+        "name": "displayValue",
+        "params": [],
+        "statisticalType": "Data - Categorical - free form",
+        "type": "string"
+      }
+    }
+  }
+]
