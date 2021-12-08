@@ -55,6 +55,22 @@ export const widgetSchema = gql`
 
     extend type Query {
           # Widget Summary
+    # View: hoodies
+    # Widget: Table of Hoodie 2
+    # Thing: Hoodie
+    # Attributes: hoodie
+    # Widget type: goal
+    object_listing_774a5f4e_a6b0_49fe_a5a9_ca01abadf081(input: DataListingArgs): ListingResult
+
+    # Widget Summary
+    # View: hoodies
+    # Widget: Table of  hoodies
+    # Thing: Hoodie
+    # Attributes: hoodie
+    # Widget type: goal
+    object_listing_a571ff29_a98d_4519_9c43_c04dc40f5e27(input: DataListingArgs): ListingResult
+
+    # Widget Summary
     # Widget: Widget 1
     # Value: hoodie
     widget_statisticsc1f9472f_9842_4b2a_8c0e_984e898e6af1(input: MultiTransFormationArgs): [MultiTransFormationResults]

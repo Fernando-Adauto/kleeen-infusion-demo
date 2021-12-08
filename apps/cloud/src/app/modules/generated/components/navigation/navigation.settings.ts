@@ -24,6 +24,14 @@ export const getSettings = (logout: () => void): NavigationSettings => {
         openInNewTab: false,
         areYouSure: false,
       },
+      {
+        title: `hoodies`,
+        path: `/hoodies`,
+        icon: `ks-navigation-wsL66CpMjKXz3avU4kr46A`,
+        type: `workflow`,
+        openInNewTab: false,
+        areYouSure: false,
+      },
     ],
   };
 };
