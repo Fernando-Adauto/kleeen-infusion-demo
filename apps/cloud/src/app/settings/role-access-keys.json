@@ -6,6 +6,12 @@
           "ADMIN": "SHOW",
           "GUEST": "SHOW"
         }
+      },
+      "HOODIES": {
+        "PERMISSIONS": {
+          "ADMIN": "SHOW",
+          "GUEST": "SHOW"
+        }
       }
     }
   },
@@ -30,6 +36,26 @@
             }
           },
           "REPORT1": {
+            "PERMISSIONS": {
+              "ADMIN": "SHOW",
+              "GUEST": "SHOW"
+            }
+          }
+        }
+      }
+    }
+  },
+  "HOODIES": {
+    "CHILDREN": {
+      "VIEWS": {
+        "CHILDREN": {
+          "TABLEOFHOODIE2": {
+            "PERMISSIONS": {
+              "ADMIN": "SHOW",
+              "GUEST": "SHOW"
+            }
+          },
+          "TABLEOFHOODIES": {
             "PERMISSIONS": {
               "ADMIN": "SHOW",
               "GUEST": "SHOW"
